@@ -259,6 +259,5 @@ avyana-auv/
 **Institution:** GEC Bhavnagar, Gujarat  
 **Team:** 4 members | Team Lead: Dharmi Bhavsar  
 **Year:** 2025-26  
-**Inspiration:** SAUVC (Singapore AUV Challenge)
 
 ---
