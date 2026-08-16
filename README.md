@@ -62,8 +62,8 @@ Note: Competed fully untethered against tethered vehicles.
 │           Raspberry Pi              │
 │  ┌─────────────┐  ┌──────────────┐  │
 │  │  Roboflow   │  │   Mission    │  │
-│  │  CV Model   │  │   Planner   │  │
-│  │ (YOLO .pt)  │  │  (Python)   │  │
+│  │  CV Model   │  │   Planner    │  │
+│  │ (YOLO .pt)  │  │  (Python)    │  │
 │  └──────┬──────┘  └──────┬───────┘  │
 │         └────────┬────────┘          │
 │              UART Serial             │
@@ -75,7 +75,7 @@ Note: Competed fully untethered against tethered vehicles.
 │  ┌──────────┐  ┌──────────────────┐ │
 │  │  BNO08x  │  │ Thruster Control │ │
 │  │   IMU    │  │  FL FR RL RR     │ │
-│  │Yaw/Pitch │  │  VF VR (depth)  │ │
+│  │Yaw/Pitch │  │  VF VR (depth)   │ │
 │  └──────────┘  └──────────────────┘ │
 │  ┌──────────┐  ┌──────────────────┐ │
 │  │ Gripper  │  │   Arm Switch     │ │
@@ -94,7 +94,7 @@ Note: Competed fully untethered against tethered vehicles.
 | ESP32 | Microcontroller | Thruster control + IMU |
 | IMX708 Camera x2 | Stereo vision | Computer vision input |
 | BNO08x IMU | 9-DOF sensor | Yaw/Pitch/Roll stabilization |
-| T200 Thrusters x6 | Blue Robotics | Propulsion + depth control |
+| Thrusters x6 | 3D printed | Propulsion + depth control |
 | ESCs x6 | 30A | Electronic speed controllers |
 | LiPo Battery | High capacity | Power system |
 | Buck Converters x2 | Custom PCB | Voltage regulation |
