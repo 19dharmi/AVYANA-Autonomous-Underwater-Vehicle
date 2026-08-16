@@ -48,9 +48,12 @@ Task:  SAUVC inspired — gate navigation,
 
 Total Prize: ₹2,50,000
 
-Note: Competed fully untethered against tethered vehicles.
-      Last minute task change by organizers —
-      adapted mission on the spot.
+Note: Competed fully untethered against tethered 
+      vehicles. Strong performance at POC stage.
+      Gained hands-on experience in autonomous 
+      systems, computer vision deployment, and 
+      real-time embedded control under competition 
+      conditions.
 ```
 
 ---
@@ -230,3 +233,32 @@ Attack:   Poison SAUVC public dataset on Roboflow
 Fix:      Dataset auditing, private training data,
           model behavior verification
 ```
+---
+
+## 📁 Repository Structure
+
+avyana-auv/
+├── esp32/
+│ └── avyana_mission.ino # Full ESP32 mission code
+├── vision/
+│ ├── best.pt # YOLO model (PyTorch)
+│ └── best.onnx # YOLO model (ONNX/deployment)
+├── pcb/
+│ └── avyana_auv_pcb.zip # KiCad Gerber files
+├── images/
+│ ├── cad.png # SolidWorks CAD design
+│ └── competition.jpg # Competition photos
+└── README.md
+
+
+---
+
+## 🎓 Academic Context
+
+**Competition:** RoboFest 5.0  
+**Institution:** GEC Bhavnagar, Gujarat  
+**Team:** 4 members | Team Lead: Dharmi Bhavsar  
+**Year:** 2025-26  
+**Inspiration:** SAUVC (Singapore AUV Challenge)
+
+---
